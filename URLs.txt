@@ -1,0 +1,5 @@
+curl -X POST http://localhost:8080/v1/organization -H "Content-Type: application/json" -d '{"id": "001", "name": "FPVSoft", "contactName": "Anibal B", "contactEmail": "anibal@cartago", "contactPhone": "1111111" }'
+
+curl http://localhost:8080/v1/organization/001 -H "Content-Type: application/json"
+
+
